@@ -1,0 +1,157 @@
+/* Table */
+
+table, td {
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.539);
+    text-align: center;    
+    font-family: 'Comfortaa', sans-serif;
+}
+.table {
+    display: flex;
+    justify-content: center;
+}
+td {
+    text-align: center;
+    font-size: 13px;
+    width: 300px;   
+}
+.days, .time {
+    font-size: 20px;
+}
+
+.overlay_stretch, .overlay_yoga, .overlay_silkStart, .overlay_silkProfi, .overlay_hoopStart, .overlay_hoopMidle, .overlay_hoopProfi, .overlay_acro, .overlay_poleStart, .overlay_poleMidle, .overlay_exotic {
+    padding: 1px;
+    border-radius: 10px;
+}
+.overlay_stretch {
+    background-color: rgb(234, 199, 199);
+}
+.overlay_yoga{
+    background-color: rgb(197, 239, 234);
+}
+.overlay_silkStart {
+    background-color: rgb(112, 145, 112) ;
+}
+.overlay_silkProfi {
+    background-color: rgb(238, 244, 201);
+}
+.overlay_hoopStart {
+    background-color:rgb(248, 190, 165);
+}
+.overlay_hoopMidle {
+    background-color: rgb(195, 212, 167);
+}
+.overlay_hoopProfi {
+    background-color: rgb(161, 156, 251);
+}
+.overlay_acro {
+    background-color: rgb(203, 198, 195);
+}
+.overlay_poleStart {
+    background-color: rgb(174, 155, 191);
+}
+.overlay_poleMidle {
+    background-color: rgb(160, 219, 192);
+}
+.overlay_exotic {
+    background-color: rgb(210, 146, 146) ;
+}
+
+/* Schedule */
+
+.title_schedule, .ontainer_price_schedule{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.options_price_schedule {
+    font-size: 30px;   
+}
+.price {
+    font-size: 16px;
+}
+.title_schedule, .priceSchedule, .optionsPriceSchedule, .price {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.container_price_schedule{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media all and (max-width: 820px) {
+    /* Table */
+
+    table, td {
+        padding: 5px;
+        border-radius: 10px;       
+    }
+    
+    td {
+        font-size: 10px;
+        width: 80px;   
+    }
+    .days, .time {
+        font-size: 12px;
+    }
+
+    /* Schedule */
+
+    .title_schedule, .price_schedule {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .container_price_schedule {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .options_price_schedule {
+        font-size: 20px;   
+    }
+    .price {
+        font-size: 15px;
+    }
+    .overlay_stretch, .overlay_yoga, .overlay_silkStart, .overlay_silkProfi, .overlay_hoopStart, .overlay_hoopMidle, .overlay_hoopProfi, .overlay_acro, .overlay_poleStart, .overlay_poleMidle, .overlay_exotic  {
+        border-radius: 5px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    /* Table */
+
+    table, td {
+        padding: 3px;
+        border-radius: 5px;
+    }
+
+    td {
+        font-size: 5px;
+        width: 50px;   
+    }
+    .days, .time {
+        font-size: 8px;
+    }
+
+    /* Schedule */
+
+    .title_schedule, .price_schedule {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    
+
+    .options_price_schedule {
+        font-size: 16px;   
+    }
+    .price {
+        font-size: 12px;
+    }
+
+
+}

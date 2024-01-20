@@ -1,38 +1,436 @@
-.App {
+body {
+  background-color: #7b899f80;
+  background-size:cover; 
+  background-image: url('./resources/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.all_components {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Menu */
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px; 
+}
+
+.logo_name {
+  font-family: 'Marhey', sans-serif;
+  color: rgb(115, 45, 137);
+  text-decoration: none;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: .9px .9px rgb(255, 255, 255)
+}
+
+.link {  
+  padding: 5px 65px;
+  text-decoration: none;
+  color: rgb(48, 2, 61);
+  font-size: 18px;
+  align-self:center;
+  font-family: 'Comfortaa', sans-serif;
+  text-shadow: .4px .4px rgba(32, 32, 36, 0.853);
+}
+
+.link:hover {
+  color:rgb(204, 13, 169);
+  text-transform: uppercase;
+}
+
+.btn_menu {
+  display: none;
+  background: none;
+  border: none;
+}
+
+/* Header */
+
+.container_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  padding: 20px;
+  margin: 30px;
+  border-radius:30px;
+}
+
+.title_header{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rgba(255, 255, 255, 0.539);
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.content_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+.text_title_header_first, .text_title_header_second  {
+  border-radius: 30px;
+  font-family: 'Comfortaa', sans-serif;
+  padding: 15px;
+  width: 700px;
+  font-size: 20px;
+  align-self: center;
+  text-align: center;
+  letter-spacing: 1px;
+} 
+
+.text_title_header_second {
+  background-color: rgba(255, 255, 255, 0.539);
+}
+
+.title {
+  font-family: 'Comfortaa', sans-serif;
+  color: rgb(48, 2, 61);
+  font-size: 40px;
+}
+
+.container_subscribe_btn_header {
+  align-self:center;
+}
+
+.subscribe_btn_header {
+  align-self: center;
+  padding: 15px;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgb(150, 80, 139);
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+
+/* Advantages */
+
+
+.title_advantages {
+  font-family: 'Comfortaa', sans-serif;
+  color: rgb(48, 2, 61);
+  font-size: 35px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container_advantages {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 20px;
+  font-family: 'Comfortaa', sans-serif;
+  background-color: rgba(255, 255, 255, 0.539);
+  border-radius:30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.advantages {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  width: 280px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icon_advantages {
+  border-radius: 50%;
+}
+
+.about_advantages {
+  font-size: 23px;
+}
+.text_about_advantages {
+  font-size: 16px;
+}
+
+/* Services */
+
+.container_services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.539); ;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.title_services {
+  text-align: center;
+  font-family: 'Comfortaa', sans-serif;
+  color: rgb(48, 2, 61);
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+.all_services {
+  text-align: center;
+  width: 100px;
+}
+.service {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 17px;
+}
+
+hr {
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+/* Error Page */
+
+.container_error {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon_error {
+  border-radius: 12pc ;
+}
+.link_error, .title_error{
+  font-family: 'Comfortaa', sans-serif;
+  margin-top: 30px;
+}
+.link_error {
+  background-color: rgb(150, 80, 139);
+  padding: 10px;
+  border-radius: 30px;
+  border: black 1px solid;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.title_error{
+  font-size: 36px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (max-width: 820px) {
+
+  /* Menu */
+
+  .logo_name {
+    font-size: 18px;
   }
-  to {
-    transform: rotate(360deg);
+  .link {
+    font-size: 15px;
+    padding: 5px 18px;
   }
+
+/* Header */
+
+.title {
+  font-size: 22px; 
 }
+
+.icon_header {
+  width: 200px;
+}
+
+.text_title_header_first, .text_title_header_second  {
+  font-size: 15px;
+  width: 450px;
+}
+
+.subscribe_btn_header {
+  font-size: 12px;
+}
+
+.icon_header {
+  margin: 10px;
+}
+
+.container_header {
+  padding: 5px;
+  margin: 5px;
+}
+
+.title_header{
+  padding: 15px;
+}
+
+ /* Advantages */
+
+.title_advantages {
+  font-size: 22px;
+}
+.icon_advantages  {
+  width: 200px;
+}
+.about_advantages {
+  font-size: 18px;
+}
+.text_about_advantages {
+  font-size: 15px;
+}
+
+.advantages {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Services */
+
+.title_services {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.service {
+  font-size: 16px;
+}
+
+.container_services {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Error Page */
+
+.icon_error  {
+  border-radius: 8pc ;
+  width: 400px;
+}
+.link_error, .title_error {
+  margin-top: 30px;
+}
+.link_error {
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.title_error {
+  font-size: 30px;
+}
+
+}
+
+
+@media all and (max-width: 500px) {
+
+  /* Menu */ 
+
+  .nav2_mobile {
+    display: none;
+  }
+
+  .btn_menu {
+    display: block;
+  }
+
+  .logo_name {
+    font-size: 15px;
+  }
+  .link {
+    font-size: 12px;
+  }
+
+  .nav2_mobile.is-open {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    display: flex; 
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  /* Header */
+  
+  .icon_header {
+    display: none;
+  }
+
+  .title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .container_header {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .text_title_header_first, .text_title_header_second {
+    font-size: 14px;
+    width: 300px;
+  }
+
+  .subscribe_btn_header {
+    font-size: 10px;
+  }
+  hr {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* Advantages */
+
+  .title_advantages{
+    font-size: 20px;
+  }
+  .icon_advantages{
+    width: 100px;
+  }
+  .about_advantages{
+    font-size: 15px;
+  }
+  .text_about_advantages {
+    font-size: 10px;
+  }
+
+  /* Services */
+
+  .title_services {
+    font-size: 20px;
+  }
+
+  .service {
+    font-size: 12px;
+  }
+  .icon_service {
+    width: 50px;
+  }
+
+  /* Error Page */
+
+  .title_error  {
+    font-size: 18px;
+  }
+  .icon_error {
+    width: 300px;
+    border-radius: 5pc ; 
+  }
+
+  .link_error {
+    font-size: 10px;
+  }
+
+}
+
+
+
+
+
+
+
+

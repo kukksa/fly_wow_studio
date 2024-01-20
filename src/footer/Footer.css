@@ -1,0 +1,166 @@
+
+.container_footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.adress_footer, .madeBy {
+    font-family: 'Comfortaa', sans-serif;  
+    text-align: center;
+}
+.adress_footer {
+    font-size: 16px;
+}
+
+.madeBy {
+    font-size: 15px;
+    color: rgba(2, 2, 2, 0.572);
+}
+.logo_name_footer {
+    font-family: 'Marhey', sans-serif;
+    color: rgb(106, 6, 136);
+    font-size: 25px;
+}
+.icon_footer {
+    cursor: pointer;
+}
+
+/* Form Footer */
+
+.form_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_formFooter {
+    margin-top: 15px;
+    font-size: 16px ;
+    padding: 12px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(150, 80, 139);
+    color: #ffffff;
+    border-radius: 30px;
+}
+.btn_formFooter, .form_footer, .subscribe_formFooter, .thanks_formFooter, .input_formFooter, .select_formFooter  {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.subscribe_formFooter {
+    font-size: 25px;
+}
+.thanks_formFooter {
+    margin-top: 50px;
+    font-size: 20px;
+    color: brown;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.select_formFooter, .input_formFooter {
+    padding: 5px;
+    width: 350px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+@media all and (max-width: 820px) {
+
+    .container_footer {
+        margin-top: 50px;
+    }
+    .logo_name_footer {
+        font-size: 25px;
+    }
+    .adress_footer {
+        font-size: 12px;
+    }
+    .madeBy {
+        font-size: 12px;    
+    }
+
+    /* Form Footer */
+
+
+    .subscribe_formFooter {
+        margin-top: 30px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .thanks_formFooter {
+        margin-top: 30px;
+        font-size: 10px;
+        color: brown;
+    }
+    
+    .select_formFooter, .input_formFooter {
+        padding: 5px;
+        width: 200px;
+        margin: 5px;
+        font-size: 15px;
+    }
+    .label_formFooter {
+        font-size: 12px;
+    }
+
+    .btn_formFooter {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    hr {
+    margin-bottom: 20px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+
+    .logo_name_footer {
+        font-size: 15px;
+    }
+    .adress_footer {
+        font-size: 10px;
+    }
+    .madeBy {
+        font-size: 10px;    
+    }
+
+    /* Form Footer */
+
+
+    .subscribe_formFooter {
+        margin: 20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .thanks_formFooter {
+        margin-top: 30px;
+        font-size: 10px;
+        color: brown;
+    }
+    
+    .select_formFooter , .input_formFooter {
+        padding: 5px;
+        width: 150px;
+        margin: 5px;
+        font-size: 10px;
+    }
+    .label_formFooter {
+        font-size: 10px;
+    }
+
+    .btn_formFooter {
+        font-size: 10px;
+        padding: 8px;
+    }
+}
+
+
