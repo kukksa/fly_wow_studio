@@ -1,4 +1,4 @@
 [[redirects]]
-    from = "/*
-    to = "/index.hyml
+    from = "/*"
+    to = "/index.hyml"
     status = 200
