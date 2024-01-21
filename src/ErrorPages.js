@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import errorPage from './resources/6339698.jpg'
+import errorPage from './assets/6339698.jpg'
 
 function NotFound() {
 

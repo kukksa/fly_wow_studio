@@ -1,7 +1,7 @@
-import iconAdvGym from '../resources/iconAdvGym.jpg';
-import iconAdvAcro from '../resources/iconAdvAcro.jpg';
-import iconAdvSplit from '../resources/iconAdvSplit.jpg';
-import iconAdvStar from '../resources/iconAdvStar.jpg';
+import iconAdvGym from '../assets/iconAdvGym.jpg';
+import iconAdvAcro from '../assets/iconAdvAcro.jpg';
+import iconAdvSplit from '../assets/iconAdvSplit.jpg';
+import iconAdvStar from '../assets/iconAdvStar.jpg';
 import '../App.css';
 
 function Advantages() {

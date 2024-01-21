@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import burger from './resources/icons8-menu-30.png'
+import burger from './assets/icons8-menu-30.png'
 
 import News from './pages/news/News';
 import Home from './Home';

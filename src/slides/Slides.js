@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { data } from "./dataSlides";
-import arrowL from "../resources/icons8-double-left-64.png";
+import arrowL from "../assets/icons8-double-left-64.png";
+import arrowR from '../assets/icons8-double-right-64.png';
 import "./Slides.css";
-import arrowR from '../resources/icons8-double-right-64.png';
 
 
 

@@ -1,5 +1,5 @@
 import './News.css';
-import cross from './cross.png';
+import cross from './assets/cross.png';
 
 
 const Content = ({setIsOpen}) => {

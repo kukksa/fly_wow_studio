@@ -1,10 +1,10 @@
-import cafeSlide from '../resources/cafeSlide.jpg';
-import pilatesSlide from '../resources/pilatesSlide.jpg';
-import stretchSlide from '../resources/stretchSlide.jpg';
-import acroSlide from '../resources/acroSlide.jpg';
-import yogaSlide from '../resources/yogaSlide.jpg';
-import poleSlide from '../resources/poleSlide.jpg';
-import hoopSlide from '../resources/hoopSlide.jpg';
+import cafeSlide from '../assets/cafeSlide.jpg';
+import pilatesSlide from '../assets/pilatesSlide.jpg';
+import stretchSlide from '../assets/stretchSlide.jpg';
+import acroSlide from '../assets/acroSlide.jpg';
+import yogaSlide from '../assets/yogaSlide.jpg';
+import poleSlide from '../assets/poleSlide.jpg';
+import hoopSlide from '../assets/hoopSlide.jpg';
 
 
 

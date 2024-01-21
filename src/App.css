@@ -1,7 +1,7 @@
 body {
   background-color: #7b899f80;
   background-size:cover; 
-  background-image: url('./resources/back.jpg');
+  background-image: url('./assets/back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

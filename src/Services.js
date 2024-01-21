@@ -1,9 +1,9 @@
-import cafe from './resources/cafe.png';
-import rent from './resources/rent.png';
-import camp from './resources/camp.png';
-import party from './resources/party.png';
-import merch from './resources/sweater.png';
-import dress from './resources/dress.png';
+import cafe from './assets/cafe.png';
+import rent from './assets/rent.png';
+import camp from './assets/camp.png';
+import party from './assets/party.png';
+import merch from './assets/sweater.png';
+import dress from './assets/dress.png';
 
 import './App.css';
 

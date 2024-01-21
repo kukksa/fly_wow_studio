@@ -1,5 +1,5 @@
-import iconHeaderMini from '../resources/Frame.png';
-import iconHeaderMiniTwo from '../resources/Union.png';
+import iconHeaderMini from '../assets/Frame.png';
+import iconHeaderMiniTwo from '../assets/Union.png';
 import '../App.css';
 
 function Header() {

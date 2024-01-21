@@ -1,16 +1,16 @@
 /* News */
 
 .first_news {
-    background-image: url('./yogaNews.jpg');
+    background-image: url('./assets/yogaNews.jpg');
 }
 .second_news {
-    background-image: url('./stretchNews.jpg');
+    background-image: url('./assets/stretchNews.jpg');
 }
 .third_news {
-    background-image: url('./infoNews.jpg');   
+    background-image: url('./assets/infoNews.jpg');   
 }
 .fouth_news {
-    background-image: url('./childNews.jpg');
+    background-image: url('./assets/childNews.jpg');
     justify-content: center;
 }
 
