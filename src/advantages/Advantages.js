@@ -10,7 +10,7 @@ function Advantages() {
 
             <div className="container_advantages">
                 {dataAdvantages
-                .map(advantage => <Advantage advantage={advantage}/>)}
+                .map(advantage => <Advantage advantage={advantage} key={advantage.id}/>)}
             </div>
 
         {/* <div className="container_advantages">
