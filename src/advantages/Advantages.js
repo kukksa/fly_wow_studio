@@ -1,8 +1,6 @@
-import iconAdvGym from '../assets/iconAdvGym.jpg';
-import iconAdvAcro from '../assets/iconAdvAcro.jpg';
-import iconAdvSplit from '../assets/iconAdvSplit.jpg';
-import iconAdvStar from '../assets/iconAdvStar.jpg';
 import '../App.css';
+import dataAdvantages from './dataAdvantages';
+import Advantage from './Advantage';
 
 function Advantages() {
 
@@ -10,7 +8,12 @@ function Advantages() {
             <hr />
             <h2 className='title_advantages'> Наши преимущества </h2>
 
-        <div className="container_advantages">
+            <div className="container_advantages">
+                {dataAdvantages
+                .map(advantage => <Advantage advantage={advantage}/>)}
+            </div>
+
+        {/* <div className="container_advantages">
             <div className='advantages'>
                 <img className='icon_advantages' src={iconAdvGym} alt="gymnast" width='150px'/>
                 <h2 className='about_advantages'>Уникальная программа</h2>
@@ -33,7 +36,7 @@ function Advantages() {
                 <h2 className='about_advantages'>Соревнования</h2>
                 <p className='text_about_advantages'>У вас будет уникальная возможность выступить на внутренних и внешних соревнованиях для того чтобы продемонстрировать свой результат и встать на пьедестал.</p>
             </div>
-        </div>
+        </div> */}
 
     </div>
 }

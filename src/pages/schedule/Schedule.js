@@ -6,10 +6,12 @@ function Schedule() {
         <Table/>
         <div className="container_price_schedule">
             <h2 className="price_schedule">Цены</h2>
+            
             <h4 className="options_price_schedule">Разовые занятия:</h4>
             <p className="price">Пробное занятие: бесплатно</p>
             <p className="price">Разовое занятие: 10€</p>
             <p className="price">Индивидуальное занятие: 25€</p>
+
             <h4 className="options_price_schedule">Абонементы:</h4>
             <p className="price">На 8 занятий: 50€</p>
             <p className="price">На 16 занятий: 75€</p>

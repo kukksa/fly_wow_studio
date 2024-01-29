@@ -61,10 +61,11 @@ td {
 
 /* Schedule */
 
-.title_schedule, .container_price_schedule {
+.title_schedule, .price_schedule {
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 35px;
+    text-align: center;
 }
 .options_price_schedule {
     font-size: 30px;   

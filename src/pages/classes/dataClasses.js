@@ -1,10 +1,10 @@
-import hoopClass from './assets/Ellipse 1.png';
-import silksClass from './assets/Ellipse 10.png';
-import acroClass from './assets/Ellipse 5.png';
-import stretchClass from './assets/Ellipse 8.png';
-import aeroYogaClass from './assets/Ellipse 11.png';
-import poleAcroClass from './assets/Ellipse 6.png';
-import poleDanceClass from './assets/Ellipse 7.png';
+import hoopClass from '../assets/Ellipse 1.png';
+import silksClass from '../assets/Ellipse 10.png';
+import acroClass from '../assets/Ellipse 5.png';
+import stretchClass from '../assets/Ellipse 8.png';
+import aeroYogaClass from '../assets/Ellipse 11.png';
+import poleAcroClass from '../assets/Ellipse 6.png';
+import poleDanceClass from '../assets/Ellipse 7.png';
 
 
 export const data = [
