@@ -1,6 +1,5 @@
 import './News.css';
 
-
 const Modal =( {setIsOpen, children} ) => {
 
     const closeModal = e => {

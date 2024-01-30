@@ -1,7 +1,6 @@
 import './News.css';
 import cross from '../assets/cross.png';
 
-
 const Content = ({setIsOpen}) => {
     return ( <div className="modal_content">
         <h3>Для более подробной информации свяжитесь с нами по телефону</h3>

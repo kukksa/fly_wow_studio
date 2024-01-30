@@ -1,7 +1,7 @@
 import './App.css';
 import Header from "./header/Header";
 import Advantages from "./advantages/Advantages";
-import Services from "./Services";
+import Services from "./additionalServices/Services";
 import Slides from "./slides/Slides";
 
 
