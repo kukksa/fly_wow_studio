@@ -3,8 +3,11 @@ import FormFooter from './FormFooter';
 import iconInstagram from '../assets/icons8-instagram-30.png';
 import iconFacebook from '../assets/icons8-facebook-30.png';
 
+
 function Footer() {
+
     return(
+
     <div>
         <div className="container_footer">
             <div className='adress_footer'>

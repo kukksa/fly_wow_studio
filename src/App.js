@@ -14,28 +14,20 @@ import Schedule from './pages/schedule/Schedule';
 import ContactUs from './pages//contacts/Contacts';
 import Footer from './footer/Footer.js';
 import NotFound from './ErrorPages.js';
-import LoaderPage from './loader/LoaderPage.js';
 
-import { useState, useEffect } from 'react';
+
+import { useState } from 'react';
 
 
 function App() {
 
-  const [stateLoader, setStateLoader] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setStateLoader(false), 1000);
-    return () => clearTimeout(timer)
-  }, [])
 
   const toggleMenu = () => {
     setIsOpen((open) => !open)
   }
   
-  return stateLoader ? (
-    <LoaderPage/>
-  ) : (
+  return (
   <Router>
   <nav>
     <div className='nav2'>
