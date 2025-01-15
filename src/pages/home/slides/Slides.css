@@ -33,10 +33,7 @@
 }
 
 @media all and (max-width: 500px) {
-    .images_slides {
-        width: 65%;
-        height: 200px;
-    }
+    
     .icon_slide {
         width: 20px;
     }
