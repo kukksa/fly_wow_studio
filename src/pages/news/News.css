@@ -1,81 +1,63 @@
 /* News */
 
-.first_news {
-    background-image: url('../assets/yogaNews.jpg');
-}
-.second_news {
-    background-image: url('../assets/stretchNews.jpg');
-}
-.third_news {
-    background-image: url('../assets/infoNews.jpg');   
-}
-.fouth_news {
-    background-image: url('../assets/childNews.jpg');
-    justify-content: center;
-}
-
-.first_news, .second_news, .third_news, .fouth_news {
-    width: 1000px;
-    height: 600px;
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
+.img_news {
     border: rgb(125, 121, 123) 2px solid;
     border-radius: 15px;
-    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);   
-    margin-top: 30px;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3); 
+    border: rgb(125, 121, 123) 2px solid;
+}
+.content_news {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content:space-around;
+    margin-left: 100px;
 }
-
-.container_news {
+.all_news {
+    margin-top: 100px;
+}
+.news {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
 }
 
-.btn_news, .trial_btn_news, .fouth_btn_news  {
-    border-radius: 16px;
-    padding: 15px;
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 15px;
-    cursor: pointer;
-    color: #ffffff;
-    width: 200px;
-    background-color: rgb(150, 80, 139) ;
-    text-transform: uppercase;
-}
-.trial_btn_news {
-    margin-left: 400px;
-}
-
-.fouth_btn_news {
-    margin-right: 300px;
-    margin-bottom: 300px;
-}
-.first_januar_news, .second_news {
+.title_news {
     color: rgb(150, 80, 139);
     font-size: 18px;
     font-family: 'Comfortaa', sans-serif;
     text-shadow: .8px .8px rgba(32, 32, 36, 0.853);
 }
 
+.our_news {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 35px;
+}
 
-.first_text_news, .trial_news  {
-    font-size: 30px;
+.text_news {
     font-family: 'Comfortaa', sans-serif;
+    font-size: 16px;
+    text-shadow: .5px .5px rgba(32, 32, 36, 0.853);
+
 }
-.trial_news {
-    margin-left: 400px;
-    margin-top: 100px;
+
+.container_news {
+    margin: 100px;      
 }
-.fouth_children_news {
-    margin-right: 300px;
-    font-size: 25px;
+
+.btn_news {
+    border-radius: 12px;
+    padding: 15px;
     font-family: 'Comfortaa', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: #ffffff;
+    width: 150px;
+    background-color: rgb(150, 80, 139) ;
+    text-transform: uppercase;
 }
+
+
 
 /* Modal */
 
@@ -98,6 +80,7 @@
 /* Content */
 
 .modal_content {
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +89,6 @@
     font-size: 16px;
     width: 50%;
     height: 50%;
-    font-size: 30px;
     font-family: 'Comfortaa', sans-serif;
     text-align: center;
     border-radius: 15px;
@@ -117,46 +99,66 @@
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+
+/* Sale */
+
+.tickets {
+    height: 600px;
+    text-align: center;
+} 
+
+.btn_sale {
+    border-radius: 12px;
+    padding: 5px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    color: #ffffff;
+    width: 150px;
+    background-color: rgb(150, 80, 139) ;
+    text-transform: uppercase;
+}
+
+.text_sale {
+    margin-top: 150px;
+    color: rgb(150, 80, 139);
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+    text-shadow: .8px .8px rgba(32, 32, 36, 0.853);
+
+}
+
 @media all and (max-width: 820px) {
 
         /* News */
 
-    .first_news, .second_news, .third_news, .fouth_news {
-        width: 600px;
-        height: 400px;
+    .text_news {
+        font-size: 12px;
     }
+        
+    .btn_news {
+        font-size: 10px;
+        padding: 5px;
+        width: 150px;
+    }
+
     .container_news {
         margin-top: 30px;
     }
     
-    .btn_news, .trial_btn_news, .fouth_btn_news {
-        width: 150px;
-        font-size: 12px;
-        padding: 5px;
-    }
-    .first_januar_news, .second_text_news {
+    /* .first_januar_news, .second_text_news {
         font-size: 12px;
     }
 
     .first_text_news, .trial_news  {
         font-size: 15px;
-    }
-    .trial_news {
+    } */
+    
+    /* .trial_news {
         margin-left: 200px;
-        margin-top: 80px;
-    }
-    .trial_btn_news{
-        margin-left: 200px;
-    }
-    .fouth_btn_news {
-        margin-right: 100px;
-        margin-bottom: 100px;
-    }
-    .fouth_children_news {
-        margin-right: 150px;
-        font-size: 15px;
-        text-align: center;
-    }
+        margin-top: 80px;   
+    }  */
+
     
         /* Content */
     
@@ -171,43 +173,47 @@
     
     /* News */
 
-    .first_news, .second_news, .third_news, .fouth_news {
-        width: 300px;
-        height: 200px;
-    }
     .container_news {
-        margin-top: 20px;
+        margin: 10px;      
     }
 
-    .btn_news, .trial_btn_news, .fouth_btn_news{
-        width: 120px;
-        font-size: 8px;
-        padding: 5px;
-    }
-    .first_januar_news, .second_text_news  {
-        font-size: 8px;
-    }
-
-    .first_text_news, .trial_news  {
-        font-size: 12px;
-    }
-
-    .trial_news  {
-        margin-left: 150px;
+    .all_news {
         margin-top: 30px;
     }
-    .trial_btn_news {
-        margin-left: 150px;
-    }
-    .fouth_btn_news {
-        margin-right: 100px;
-        margin-bottom: 100px;
-    }
-    .fouth_children_news {
-        margin-right: 70px;
+
+    .title_news {
         font-size: 12px;
-        text-align: center;
     }
+
+    .text_news {
+        font-size: 8px;
+    }
+
+    .btn_news, .btn_sale {
+        padding: 3px;
+        font-size: 7px;
+        width: 80px;
+    }
+
+    .our_news {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .img_news {
+        max-width: 150px;
+        max-height: 100px;
+    }
+
+    .content_news {
+        margin-left: 30px;
+    }
+
+    .container_news {
+        margin-top: 10px;
+    }
+
 
     /* Content */
 
@@ -218,6 +224,8 @@
     }
 
 }
+
+
 
 
 

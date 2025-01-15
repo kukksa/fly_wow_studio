@@ -1,5 +1,5 @@
 import './News.css';
-import cross from '../assets/cross.png';
+import cross from '../../assets/cross.png';
 
 const Content = ({setIsOpen}) => {
     return ( <div className="modal_content">
